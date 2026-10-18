@@ -26,14 +26,6 @@ It never overclocks, flashes firmware or edits game files.
 
 Download `FrameTune-Setup-<version>.exe` from [Releases](https://github.com/AntiLegend93/FrameTune/releases) and run it. No admin rights are needed to install. Windows asks for permission only when driver settings are changed.
 
-## Building
-
-1. Install Visual Studio 2022 with the **.NET desktop development** and **Windows App SDK C# templates** workloads, plus [Inno Setup 6](https://jrsoftware.org/isdl.php).
-2. Run `build\build-release.bat`.
-3. The app is in `dist\FrameTune\` and the installer is `dist\FrameTune-Setup-<version>.exe`.
-
-To release an update, raise the version in `Directory.Build.props` and `version.txt`, build, and attach the Setup.exe to a GitHub release tagged `v<version>`.
-
 ---
 
 FrameTune is an independent app and isn't made or endorsed by NVIDIA. NVIDIA, GeForce, RTX, G-SYNC, DLSS and Reflex are trademarks of NVIDIA Corporation.
